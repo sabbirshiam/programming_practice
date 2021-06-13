@@ -14,7 +14,7 @@
 
 
 fun main(args: Array<String>) {
-    val numbers = intArrayOf(437,315,322,431,686,264,442)//12, 345, 2, 6, 7896)
+    val numbers = intArrayOf(437, 315, 322, 431, 686, 264, 442)//12, 345, 2, 6, 7896)
     val evenNumberOfDigits = EvenNumberOfDigits()
     val count = evenNumberOfDigits.findNumbers(numbers)
     println(count)
